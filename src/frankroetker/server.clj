@@ -9,3 +9,5 @@
     (server/start port {:mode mode
                         :ns 'frankroetker})))
 
+(def handler (server/gen-handler {:mode :dev
+                                  :ns 'frankroetker}))

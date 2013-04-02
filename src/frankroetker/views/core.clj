@@ -6,3 +6,7 @@
 (defpage "/" []
          (t/home
            (md-to-html-string (slurp "resources/public/pages/home.md"))))
+
+(defpage "/about" []
+         (t/home
+           (md-to-html-string (slurp "resources/public/pages/about.md"))))

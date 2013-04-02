@@ -5,6 +5,7 @@
         [hiccup.util :only [to-str]]
         [markdown.core]))
 
+;I don't really know what to do with my navbars:
 (defn navbar [& page]
   [:div#navbar
    (link-to "http://frankroetker.com" "Home")
@@ -14,6 +15,29 @@
    (link-to "http://github.com/dochaven" "Github")
    [:span " ~ "]
    (link-to "http://www.facebook.com/frank.roetker" "Facebook")])
+
+(defn navbar2 [& page]
+  [:div {:class "navbar navbar-inverse"}
+   [:div {:class "navbar-inner"}
+    [:div {:class "container"}
+     [:a {:class "brand" :href "http://frankroetker.com"} "Home"]
+     [:ul {:class "nav"}
+      [:li (link-to "http://monochromedream.com" "Monochrome Dream")]
+      [:li (link-to "http://github.com/dochaven" "Github")]
+      [:li (link-to "http://www.facebook.com/frank.roetker" "Facebook")]]]]])
+
+(defn footer []
+  [:footer
+   [:p 
+    "Created by "
+    (link-to "http://frankroetker.com/" "Frank Roetker")
+    " in Clojure using the "
+    (link-to "http://www.webnoir.org/" "Noir")
+    " web framework."
+    [:br]
+    " The source for this website can be found on my "
+    (link-to "http://github.com/dochaven/frankroetker" "Github")
+    " page."]])
 
 (defpartial base [title & content]
             (html5
@@ -30,13 +54,9 @@
                             [:img {:src "/img/header.png" :width "80" :alt "Frank Roetker"}])]
                   [:div#content
                      [:header
-                      (navbar)]
+                      (navbar2)]
                    content]]
-                [:footer
-                 [:p 
-                  "Created by "
-                  (link-to "http://frankroetker.com/" "Frank Roetker")
-                  "."]]]]))
+                (footer)]]))
 
 (defpartial home [content]
   (base "Frank Roetker" content))
