@@ -1,16 +1,75 @@
-# Lorem Ipsum
+# About Me
+
+Hi! I'm Frank Roetker, a student at 
+[Rose-Hulman Institute of Technology](http://www.rose-hulman.edu/)
+double majoring in Software Engineering and Computer Science, as well 
+as minoring in Psychology.
+
+I devote a great deal of my free time to personal and group programming 
+projects. I have a part-time job as a sub-contracted programmer in which 
+I write software for medium to large companies and medical institutions. 
+Outside of school and work, I write mobile apps for the Windows Phone and 
+Android platforms. I collaborate with others, designing websites and 
+exploring new programming languages and technologies.
 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pellentesque consequat urna, eget ultrices neque adipiscing ac. Nulla volutpat elit et diam pharetra lacinia. Cras sagittis, sapien vel sodales aliquam, odio eros mollis ipsum, non luctus nulla velit a lorem. Proin sit amet tortor dapibus nisi blandit adipiscing. In ultrices pretium tempor. Duis eu mi et elit rhoncus pellentesque. Sed sed dui eu mauris commodo commodo id vitae dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus massa nisl, cursus nec elementum a, malesuada vel nibh. Maecenas pulvinar nulla enim, sit amet gravida elit.
+## Microsoft
 
->In rhoncus, tellus quis tempor scelerisque, ligula dui interdum nunc, ut aliquam leo quam ac turpis. Sed eros magna, congue et porttitor sed, tristique vel odio. Aenean quis urna in diam ullamcorper auctor quis in est. Donec ut sodales eros. Etiam massa orci, viverra in euismod eu, volutpat quis metus. Phasellus rhoncus quam vel leo sollicitudin ac pharetra felis cursus. Suspendisse sagittis eleifend justo sit amet adipiscing. In hac habitasse platea dictumst. Aliquam molestie fringilla ultricies. In et bibendum enim. Nullam enim tellus, posuere non scelerisque aliquet, eleifend id nunc. Phasellus non lorem lectus, ut semper purus. Maecenas pharetra euismod quam in mollis.
+I'm going to be working for [Microsoft](http://microsoft.com/) as an 
+intern throughout the 2013 summer. I will be working on the 
+[Windows Azure](http://www.windowsazure.com/) team as a Software Developer
+Engineer in Test (SDET) in Redmond, WA.
 
-##Lorem
+## Rose-Hulman Ventures
 
-Maecenas pharetra sollicitudin ornare. Duis at leo id enim pretium luctus varius lobortis turpis. Integer at urna eget velit pulvinar ullamcorper. Vestibulum viverra ornare lacus eget tempus. Nullam vestibulum suscipit urna sed commodo. Pellentesque laoreet condimentum lorem id rutrum. In pellentesque ultrices nisi hendrerit dignissim. Aliquam mattis, est in porta ultricies, arcu quam tincidunt libero, vel fringilla turpis est et risus. Curabitur scelerisque dignissim ante et tempor. Nulla in ipsum urna. Praesent bibendum neque id ante euismod ornare sed a nisi.
+I've contributed to two separate projects whilst working at RH Ventures:
+EdgileGRC and ClotFinder.
 
-Aenean ut arcu elit, eu rhoncus mauris. Vivamus scelerisque tincidunt tortor, in eleifend ligula rutrum quis. Aenean fringilla odio elit, et pretium odio. Nunc nec tortor vel erat ultricies adipiscing vel et diam. Praesent venenatis magna ut mauris fringilla tincidunt. Etiam vulputate leo et leo condimentum mattis. Integer ultricies ligula et ligula ultrices vestibulum. Mauris ac urna tellus. Nam sit amet felis nunc. Vestibulum nunc leo, viverra eget condimentum eu, pretium in ante. Donec in felis purus, vel adipiscing enim.
+### EdgileGRC
 
-###Ipsum
+For one project I helped develop a new Silverlight application to manage 
+enterprise Governance, Risk Management, and Compliance issues for medium 
+to large corporations. 
 
-Ut non felis id justo facilisis facilisis vel at turpis. Curabitur sed tellus a elit vestibulum aliquam et sit amet dui. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque scelerisque mauris eu lectus adipiscing ut consectetur leo condimentum. Morbi ut fringilla ante. Vivamus in magna vitae ligula imperdiet euismod. In hac habitasse platea dictumst. Donec gravida lorem non felis fermentum non pretium arcu consequat. Mauris id neque nisl.
+I worked with an external client, [Edgile Inc.](http://www.edgile.com/), 
+to develop requirements, added and validated new functionality, and 
+troubleshoot issues.
+
+I supported the successful release of this application at two beta sites,
+working on a team of three.
+
+Our team used C#, Linq, XAML, and SQL to develop the application.
+
+### ClotFinder
+
+After working on EdgileGRC, I continued to the ClotFinder project. This
+project lated two months. During this time I learned and followed 
+[Health Level Seven (HL7)](http://www.hl7.org/) standards for storing 
+and exchanging electronic health information.
+
+## QuarkNet
+
+In July 2009, I was introduced to 
+[Matthew Jones](http://www.physics.purdue.edu/people/faculty/mjones.shtml), 
+Associate Professor of Physics at Purdue University. He voiced his concern 
+about the future of software for a cosmic ray muon detector (CRMD). This 
+device was neglect of an interface robust enough for the tasks for which it 
+was built. Professor Jones asked for my assistance in rewriting the software 
+so that it could be easily used for a wide range of experiments and by 
+anyone ranging from high school students to professionals.
+
+Throughout the development of this software, I faced the problem that 
+the CRMD had poor documentation. I was challenged with learning topics 
+in particle physics, mastering the execution of experiments with the 
+device, and a deep understanding of the data that was collected. I 
+gained guidance from Professor Jones regarding the physics discipline 
+and feedback on the user interface from teachers in the QuarkNet Teacher 
+Institute. 
+
+Twenty months later, I accomplished the goal Professor Jones presented. 
+Working independently, with the occasional help of others, I had produced 
+an application which is currently in use by Purdue’s QuarkNet Center.
+
+[Here](http://www.physics.purdue.edu/outreach/quarknet/teacher_institute/2012/Software_2012.pdf)
+is a presentation given by Professor Jones for this device.
+

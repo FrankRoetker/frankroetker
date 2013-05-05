@@ -60,3 +60,32 @@
 
 (defpartial home [content]
   (base "Frank Roetker" content))
+
+;Make a better 404 page sometime.
+;Please excuse my terrible Ocarina of Time reference.
+(defpartial page404 [content]
+  (html5
+    [:head
+      [:title "404"]]
+    [:body
+      [:p
+        [:pre
+          [:center 
+"
+\"Oh, I'm sorry!
+
+I got carried away with my story and
+didn't even properly introduce myself
+
+I am Zelda, Princess of Hyrule.
+
+What is your name?
+
+...
+
+Zelda...
+
+Strange... It sounds somehow...
+familiar.\"
+
+-Zelda, Ocarina of Time"]]]]))
