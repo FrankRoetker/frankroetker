@@ -1,0 +1,28 @@
+doctype html
+html(ng-app='FrankRoetker')
+  head
+    title= title
+    //- link(rel='stylesheet', href='//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css')
+    //- link(rel='stylesheet', href='/stuff/bootstrap.min.css')
+    //- link(rel='stylesheet', href='/stuff/flat-ui.css')
+    //- link(rel='stylesheet' href='/stuff/bootstrap-editable.css')
+
+    link(rel='stylesheet', href='/stylesheets/style.css')
+
+    //- CDN
+    //- script(src="//code.jquery.com/jquery-1.10.2.min.js")
+    //- script(src="//code.jquery.com/ui/1.10.4/jquery-ui.js")
+    //- script(src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js")
+    //- script(src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular.min.js")
+    //- script(src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular-sanitize.min.js")
+
+    //- Non-DCN
+    script(src='/components/jquery/dist/jquery.min.js')
+    script(src='/components/angular/angular.js')
+    script(src='/components/angular-sanitize/angular-sanitize.min.js')
+    script(src='/components/showdown/compressed/showdown.js')
+    script(src='/components/angular-markdown-directive/markdown.js')
+
+    block head
+  body.full-height
+    block content

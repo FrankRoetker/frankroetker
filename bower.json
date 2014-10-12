@@ -1,0 +1,24 @@
+{
+  "name": "FrankRoetker",
+  "version": "0.0.1",
+  "homepage": "https://github.com/FrankRoetker/frankroetker",
+  "authors": [
+    "Frank Roetker <roetkefj@rose-hulman.edu>"
+  ],
+  "description": "Web Blog",
+  "main": "app.js",
+  "moduleType": [
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-markdown-directive": "~0.3.0",
+    "jquery": "~2.1.1"
+  }
+}
