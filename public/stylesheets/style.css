@@ -1,6 +1,5 @@
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background: url("/images/background.png") top center no-repeat;
 }
 a {
   color: #00b7ff;
@@ -133,18 +132,50 @@ textarea {
   border: none;
   padding: 0 !important;
 }
-.article {
+.gist {
+  height: 250px;
+  overflow: hidden;
+}
+.gist .picture {
+  position: absolute;
+}
+article {
   position: relative;
   height: 100%;
+  width: 100%;
+  float: left;
 }
-.article .picture {
+article a {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+article .picture {
   width: 50%;
   height: 100%;
+  position: fixed;
+  background-position: center center !important;
+  background-size: cover !important;
 }
-.article .words {
-  padding: 20px;
+article .words {
+  padding: 0px;
   width: 50%;
   height: 100%;
+  margin-left: 50%;
+}
+article .words .post {
+  margin: 0 40px;
+  margin-top: 60px;
+}
+article .words .post .title {
+  font-size: 38px;
+}
+article .words .post .info {
+  font-size: 16px;
+  color: #6c7a89;
 }
 .card {
   float: none;
@@ -152,7 +183,6 @@ textarea {
   top: 0;
   left: 0;
   z-index: 800;
-  border: 1px solid #ccc;
   background: #ecf0f1;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.9);
+  box-shadow: 0 2px 20px rgba(0,0,0,0.9);
 }

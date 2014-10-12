@@ -1,10 +1,15 @@
 extends ./layout
 
 block content
-  div.article
-    //- div.picture(style="background:url('"background"')")
-    div.picture(style="background:url('/images/wood.jpg')")
-    div.words
-      h2.title
-      h3.subtitle
-      p.body
+  div(ng-controller="StoryTime" ng-init="posts = #{JSON.stringify(posts)}")
+    article.gist.card(ng-repeat="post in posts")
+      a(href="{{goToPost(post)}}")
+      div.picture(style="{{getPicture(post)}}")
+      div.words
+        div.post
+          h1.title {{post.data.title}}
+          h2.info {{post.data.author}} on {{formatDate(post)}}
+          div(markdown="post.content")
+
+block head
+  script(src='/javascripts/posts/story.js')  

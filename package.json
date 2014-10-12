@@ -11,6 +11,8 @@
     "jade": "*",
     "stylus": "*",
     "gray-matter": "*",
-    "showdown": "*"
+    "showdown": "*",
+    "redis": "*",
+    "restler": "*"
   }
 }
