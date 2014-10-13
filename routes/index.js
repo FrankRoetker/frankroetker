@@ -44,11 +44,12 @@ module.exports = function(app){
 
   app.get('/blog/:post', function(req, res, next){
     client.HVALS(req.params.post, function(err, results){
+      console.log(results);
       res.render('story', {
         title: results[0].title,
         posts: [{
-          data: JSON.parse(results[0]),
-          name: results[1],
+          data: JSON.parse(results[1]),
+          name: results[0],
           content: showdown.makeHtml(results[2])
         }]
       });
