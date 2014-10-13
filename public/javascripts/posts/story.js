@@ -58,9 +58,9 @@ app.controller('StoryTime', function($scope) {
     // return "background:url('http://upload.wikimedia.org/wikipedia/commons/8/8f/Toaster.jpg')";
     if(!!post.data.image){
       return "background:url('" + post.data.image + "')";
-    } else if(post.data.color){
+    } else if(!!post.data.color){
       return "background:" + post.data.color;
-    } else{
+    } else {
       return "background:" + colors[Math.floor(Math.random()*colors.length)];;
     }
   }

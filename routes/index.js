@@ -23,6 +23,12 @@ module.exports = function(app){
     });
   });
 
+  app.get('/card', function(req, res){
+    res.render('card', {
+      title: "Frank Roetker"
+    });
+  });
+
   app.get('/blog', function(req, res){
     getAllFileData(function(posts){
       getTop10Posts(posts, function(posts){
